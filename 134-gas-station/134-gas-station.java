@@ -19,7 +19,9 @@ class Solution {
         {
             return pos+1;
         }
-        return -1;
-        
+        else
+        {
+           return -1; 
+        }
     }
 }
