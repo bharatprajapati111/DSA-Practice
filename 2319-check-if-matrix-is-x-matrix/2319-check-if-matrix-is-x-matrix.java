@@ -8,9 +8,9 @@ class Solution {
         {
            for(int j=0;j<n;j++)
            {
-               if(i==j || i+j==m-1)
+               if(i==j || i+j==m-1)   // This is Diagonal.
                {
-                    if(mat[i][j]==0)
+                    if(mat[i][j]==0)  // Diagonal element must be non-zero
                     {
                         return false;
                     }
